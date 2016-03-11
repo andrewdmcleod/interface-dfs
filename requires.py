@@ -79,7 +79,7 @@ class DFSRequires(RelationBase):
             'remote_spec': self.remote_spec(),
             'local_spec': self.local_spec(),
             'hosts-map': self.hosts_map(),
-            'clustername': self.clusternodes(),
+            'clustername': self.clustername(),
             'namenodes': self.namenodes(),
             'port': self.port(),
             'webhdfs_port': self.webhdfs_port(),
